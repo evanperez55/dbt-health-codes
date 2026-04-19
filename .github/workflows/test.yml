@@ -34,7 +34,7 @@ jobs:
             outputs:
               dev:
                 type: duckdb
-                path: ':memory:'
+                path: /tmp/dbt_health_codes.duckdb
                 threads: 4
           EOF
       - name: dbt deps
