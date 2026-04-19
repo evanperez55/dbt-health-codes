@@ -1,5 +1,5 @@
 name: "dbt_health_codes"
-version: "0.5.0"
+version: "0.5.1"
 config-version: 2
 
 require-dbt-version: [">=1.6.0", "<2.0.0"]
@@ -19,8 +19,10 @@ clean-targets:
 seeds:
   dbt_health_codes:
     +quote_columns: true
-    # We deliberately don't force column_types here — warehouse adapters auto-
-    # detect types from the CSV and get it right in every target we've tested
-    # (DuckDB, Postgres). Forcing types tripped up TIMESTAMP WITH TIME ZONE
-    # detection on valid_from. If your warehouse misdetects, override in your
-    # consuming project's dbt_project.yml under seeds: dbt_health_codes: etc.
+    # Force code column to varchar — DuckDB's CSV sniffer infers INTEGER for
+    # all-numeric code samples and then crashes on leading-zero NDCs
+    # (e.g. "03215012014") that must be preserved as strings. The sniffer hit
+    # was non-deterministic (depends on sample window); forcing varchar is the
+    # robust fix. valid_from / valid_to continue to auto-detect as timestamptz.
+    +column_types:
+      code: varchar
