@@ -90,3 +90,27 @@ seeds:
         tests: [not_null]
       - name: relationship
         tests: [not_null]
+
+  - name: codes_mdc
+    description: "CMS Major Diagnostic Categories (26 rows: PRE + 01..25). From the MS-DRG v43.1 Definitions Manual."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+      - name: description_long
+        tests: [not_null]
+
+  - name: crosswalks
+    description: "Cross-system mappings. Today: 764 MSDRG→MDC. Growing — see provenance column for source authority."
+    columns:
+      - name: source_system
+        tests: [not_null]
+      - name: source_code
+        tests: [not_null]
+      - name: target_system
+        tests: [not_null]
+      - name: target_code
+        tests: [not_null]
+      - name: relationship
+        tests: [not_null]
+      - name: provenance
+        tests: [not_null]

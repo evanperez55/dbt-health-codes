@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**MIT-licensed dbt package for US medical code systems.** ICD-10-CM/PCS, HCPCS, CARC, RARC, HIPPS, MS-DRG, NDC, POS — 439,000+ codes — refreshed on every CMS release.
+**MIT-licensed dbt package for US medical code systems.** ICD-10-CM/PCS, HCPCS, CARC, RARC, HIPPS, MS-DRG, NDC, POS, MDC — 439,000+ codes plus 764 cross-system mappings — refreshed on every CMS release.
 
 > No CPT codes (AMA-licensed). No SNOMED (non-US redistribution restrictions). No dependencies beyond dbt. Free forever.
 
@@ -13,7 +13,7 @@ Add to your `packages.yml`:
 ```yaml
 packages:
   - git: "https://github.com/evanperez55/dbt-health-codes.git"
-    revision: v0.2.0
+    revision: v0.3.0
 ```
 
 Then:
@@ -48,9 +48,9 @@ Or use the built-in macros:
 select {{ hc_lookup('POS', '11') }} as office_description;
 ```
 
-## What's in this package (v0.2.0)
+## What's in this package (v0.3.0)
 
-### Code systems — 439,326 codes across 12 systems
+### Code systems — 439,352 codes across 13 systems
 
 | System | Rows | Source | Refresh cadence |
 |---|---:|---|---|
@@ -61,13 +61,14 @@ select {{ hc_lookup('POS', '11') }} as office_description;
 | CARC (Claim Adjustment Reason) | 308 | X12.org | tri-annual (Mar/Jul/Nov) |
 | RARC (Remittance Advice Remark) | 1,198 | X12.org | tri-annual |
 | MS-DRG (FY2026 v43.1) | 772 | CMS Table 5 | annual Oct + April mid-year |
+| MDC (Major Diagnostic Categories) | 26 | CMS MS-DRG Definitions Manual | annual Oct |
 | NDC (FDA National Drug Code) | 213,454 | FDA | daily upstream, weekly in package |
 | HIPPS Home Health | 2,908 | CMS | annual |
 | HIPPS SNF | 32,824 | CMS | annual |
 | HIPPS IRF | 446 | CMS | annual |
 | POS (Place of Service) | 52 | HL7 Terminology | ad-hoc |
 
-Plus **85,143 ICD-10-CM parent/child hierarchy edges** in `codes_icd10cm_hierarchy`.
+Plus **85,143 ICD-10-CM parent/child hierarchy edges** in `codes_icd10cm_hierarchy` and **764 MSDRG→MDC crosswalks** in `crosswalks`.
 
 ### Macros
 
@@ -87,18 +88,19 @@ Healthcare data teams re-invent this wheel every quarter. Tuva's docs literally 
 
 ## Companion API
 
-If you need real-time lookups (sub-100ms) or webhooks on release days, there's a hosted REST API at [codes.neurovai.org](https://codes.neurovai.org). The dbt package and the API share the same underlying ingest pipeline.
+If you need real-time lookups, there's a hosted REST API at [codes.neurovai.org](https://codes.neurovai.org). The dbt package and the API share the same underlying ingest pipeline.
 
 - Free tier: [docs.neurovai.org](https://codes.neurovai.org/docs)
 - Data quality scorecard (public): [/health/quality](https://codes.neurovai.org/health/quality)
 
 ## Status
 
-**v0.2.0** — full code system coverage (12 systems, 439k codes). Tested against Postgres 17 and DuckDB 1.x. Snowflake/BigQuery/Databricks compatibility expected but not yet verified — bug reports welcome.
+**v0.3.0** — adds MDC (26 rows) and first cross-system crosswalks table (764 MSDRG→MDC rows). Tested against Postgres 17 and DuckDB 1.x. Snowflake/BigQuery/Databricks compatibility expected but not yet verified — bug reports welcome.
 
 Roadmap:
-- **v0.3.0** — RxNorm + LOINC (once UMLS + Regenstrief licensing is resolved)
-- **v0.4.0** — HCPCS-to-NDC crosswalk, concept-map tables, deprecated-code history
+- **v0.4.0** — HCPCS J-code → NDC crosswalk (from CMS ASP Pricing File)
+- **v0.5.0** — Historical ICD-10-CM (FY2019-2025) for true bitemporal queries
+- **v0.6.0** — RxNorm + LOINC (pending UMLS / Regenstrief licensing)
 - **v1.0.0** — Snowflake/BigQuery/Databricks verified, dbt Hub publication
 
 ## License

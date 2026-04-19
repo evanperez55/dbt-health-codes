@@ -1,0 +1,27 @@
+code,description_short,description_long,is_billable,status,valid_from
+01,Diseases and Disorders of the Nervous System,Diseases and Disorders of the Nervous System,False,active,2025-10-01T00:00:00Z
+02,Diseases and Disorders of the Eye,Diseases and Disorders of the Eye,False,active,2025-10-01T00:00:00Z
+03,"Diseases and Disorders of the Ear, Nose, Mouth and Throat","Diseases and Disorders of the Ear, Nose, Mouth and Throat",False,active,2025-10-01T00:00:00Z
+04,Diseases and Disorders of the Respiratory System,Diseases and Disorders of the Respiratory System,False,active,2025-10-01T00:00:00Z
+05,Diseases and Disorders of the Circulatory System,Diseases and Disorders of the Circulatory System,False,active,2025-10-01T00:00:00Z
+06,Diseases and Disorders of the Digestive System,Diseases and Disorders of the Digestive System,False,active,2025-10-01T00:00:00Z
+07,Diseases and Disorders of the Hepatobiliary System and Pancreas,Diseases and Disorders of the Hepatobiliary System and Pancreas,False,active,2025-10-01T00:00:00Z
+08,Diseases and Disorders of the Musculoskeletal System and Connective Tissue,Diseases and Disorders of the Musculoskeletal System and Connective Tissue,False,active,2025-10-01T00:00:00Z
+09,"Diseases and Disorders of the Skin, Subcutaneous Tissue and Breast","Diseases and Disorders of the Skin, Subcutaneous Tissue and Breast",False,active,2025-10-01T00:00:00Z
+10,"Endocrine, Nutritional and Metabolic Diseases and Disorders","Endocrine, Nutritional and Metabolic Diseases and Disorders",False,active,2025-10-01T00:00:00Z
+11,Diseases and Disorders of the Kidney and Urinary Tract,Diseases and Disorders of the Kidney and Urinary Tract,False,active,2025-10-01T00:00:00Z
+12,Diseases and Disorders of the Male Reproductive System,Diseases and Disorders of the Male Reproductive System,False,active,2025-10-01T00:00:00Z
+13,Diseases and Disorders of the Female Reproductive System,Diseases and Disorders of the Female Reproductive System,False,active,2025-10-01T00:00:00Z
+14,"Pregnancy, Childbirth and the Puerperium","Pregnancy, Childbirth and the Puerperium",False,active,2025-10-01T00:00:00Z
+15,Newborns and Other Neonates with Conditions Originating in the Perinatal Period,Newborns and Other Neonates with Conditions Originating in the Perinatal Period,False,active,2025-10-01T00:00:00Z
+16,"Diseases and Disorders of Blood, Blood Forming Organs and Immunological Disorder","Diseases and Disorders of Blood, Blood Forming Organs and Immunological Disorders",False,active,2025-10-01T00:00:00Z
+17,"Myeloproliferative Diseases and Disorders, Poorly Differentiated Neoplasms","Myeloproliferative Diseases and Disorders, Poorly Differentiated Neoplasms",False,active,2025-10-01T00:00:00Z
+18,"Infectious and Parasitic Diseases, Systemic or Unspecified Sites","Infectious and Parasitic Diseases, Systemic or Unspecified Sites",False,active,2025-10-01T00:00:00Z
+19,Mental Diseases and Disorders,Mental Diseases and Disorders,False,active,2025-10-01T00:00:00Z
+20,Alcohol/Drug Use and Alcohol/Drug Induced Organic Mental Disorders,Alcohol/Drug Use and Alcohol/Drug Induced Organic Mental Disorders,False,active,2025-10-01T00:00:00Z
+21,"Injuries, Poisonings and Toxic Effects of Drugs","Injuries, Poisonings and Toxic Effects of Drugs",False,active,2025-10-01T00:00:00Z
+22,Burns,Burns,False,active,2025-10-01T00:00:00Z
+23,Factors Influencing Health Status and Other Contacts with Health Services,Factors Influencing Health Status and Other Contacts with Health Services,False,active,2025-10-01T00:00:00Z
+24,Multiple Significant Trauma,Multiple Significant Trauma,False,active,2025-10-01T00:00:00Z
+25,Human Immunodeficiency Virus Infections,Human Immunodeficiency Virus Infections,False,active,2025-10-01T00:00:00Z
+PRE,Pre-MDC,Pre-MDC,False,active,2025-10-01T00:00:00Z
