@@ -1,0 +1,384 @@
+code,description_short,description_long,is_billable,status,valid_from
+A1,Dressing for one wound,Dressing for one wound,,active,2002-07-01T00:00:00Z
+A2,Dressing for two wounds,Dressing for two wounds,,active,2002-07-01T00:00:00Z
+A3,Dressing for three wounds,Dressing for three wounds,,active,2002-07-01T00:00:00Z
+A4,Dressing for four wounds,Dressing for four wounds,,active,2002-07-01T00:00:00Z
+A5,Dressing for five wounds,Dressing for five wounds,,active,2002-07-01T00:00:00Z
+A6,Dressing for six wounds,Dressing for six wounds,,active,2002-07-01T00:00:00Z
+A7,Dressing for seven wounds,Dressing for seven wounds,,active,2002-07-01T00:00:00Z
+A8,Dressing for eight wounds,Dressing for eight wounds,,active,2002-07-01T00:00:00Z
+A9,Dressing for 9 or more wound,Dressing for nine or more wounds,,active,2002-07-01T00:00:00Z
+AA,Anesthesia perf by anesgst,Anesthesia services performed personally by anesthesiologist,,active,1984-01-01T00:00:00Z
+AB,Aud svs w/o order evry 12mo,Audiology service furnished personally by an audiologist without a,,active,2023-01-01T00:00:00Z
+AD,"Md supervision, >4 anes proc",Medical supervision by a physician: more than four concurrent anesthesia,,active,1984-01-01T00:00:00Z
+AE,Registered dietician,Registered dietician,,active,2005-01-01T00:00:00Z
+AF,Specialty physician,Specialty physician,,active,2005-01-01T00:00:00Z
+AG,Primary physician,Primary physician,,active,2005-01-01T00:00:00Z
+AH,Clinical psychologist,Clinical psychologist,,active,1991-01-01T00:00:00Z
+AI,Principal physician of rec,Principal physician of record,,active,2010-01-01T00:00:00Z
+AJ,Clinical social worker,Clinical social worker,,active,1991-01-01T00:00:00Z
+AK,Non participating physician,Non participating physician,,active,2005-01-01T00:00:00Z
+AM,"Physician, team member svc","Physician, team member service",,active,1991-01-01T00:00:00Z
+AO,Prov declined alt pmt method,Alternate payment method declined by provider of service,,active,2013-10-01T00:00:00Z
+AP,No dtmn of refractive state,Determination of refractive state was not performed in the course of diagnostic,,active,1984-01-01T00:00:00Z
+AQ,Physician service hpsa area,Physician providing a service in an unlisted health professional shortage area,,active,2006-01-01T00:00:00Z
+AR,Physician scarcity area,Physician provider services in a physician scarcity area,,active,2005-01-01T00:00:00Z
+AS,Assistant at surgery service,"Physician assistant, nurse practitioner, or clinical nurse specialist services",,active,1988-01-01T00:00:00Z
+AT,Acute treatment,"Acute treatment (this modifier should be used when reporting service 98940,",,active,1984-01-01T00:00:00Z
+AU,"Uro, ostomy or trach item","Item furnished in conjunction with a urological, ostomy, or tracheostomy supply",,active,2003-01-01T00:00:00Z
+AV,Item w prosthetic/orthotic,"Item furnished in conjunction with a prosthetic device, prosthetic or orthotic",,active,2003-01-01T00:00:00Z
+AW,Item w a surgical dressing,Item furnished in conjunction with a surgical dressing,,active,2003-01-01T00:00:00Z
+AX,Item w dialysis services,Item furnished in conjunction with dialysis services,,active,2003-01-01T00:00:00Z
+AY,Item/service not for esrd tx,Item or service furnished to an esrd patient that is not for the treatment of,,active,2011-01-01T00:00:00Z
+AZ,Physician serv in dent hpsa,Physician providing a service in a dental health professional shortage area for,,active,2011-01-01T00:00:00Z
+BA,Item w pen services,Item furnished in conjunction with parenteral enteral nutrition (pen) services,,active,2003-01-01T00:00:00Z
+BL,Spec acquisition blood prods,Special acquisition of blood and blood products,,active,2005-07-01T00:00:00Z
+BO,Nutrition oral admin no tube,"Orally administered nutrition, not by feeding tube",,active,2003-01-01T00:00:00Z
+BP,Bene electd to purchase item,The beneficiary has been informed of the purchase and rental options and has,,active,1992-01-01T00:00:00Z
+BR,Bene elected to rent item,The beneficiary has been informed of the purchase and rental options and has,,active,1992-01-01T00:00:00Z
+BU,Bene undecided on purch/rent,The beneficiary has been informed of the purchase and rental options and after,,active,1992-01-01T00:00:00Z
+CA,Procedure payable inpatient,Procedure payable only in the inpatient setting when performed emergently on an,,active,2003-01-01T00:00:00Z
+CB,Esrd bene part a snf-sep pay,Service ordered by a renal dialysis facility (rdf) physician as part of the,,active,2003-04-01T00:00:00Z
+CC,Procedure code change,Procedure code change (use 'cc' when the procedure code submitted was changed,,active,1990-01-01T00:00:00Z
+CD,Amcc test for esrd or mcp md,Amcc test has been ordered by an esrd facility or mcp physician that is part of,,active,2004-01-01T00:00:00Z
+CE,Med neces amcc tst sep reimb,Amcc test has been ordered by an esrd facility or mcp physician that is a,,active,2004-01-01T00:00:00Z
+CF,Amcc tst not composite rate,Amcc test has been ordered by an esrd facility or mcp physician that is not,,active,2004-01-01T00:00:00Z
+CG,Policy criteria applied,Policy criteria applied,,active,2008-07-01T00:00:00Z
+CH,"0 percent impaired, ltd, res","0 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CI,1 to <20 percent impaired,"At least 1 percent but less than 20 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CJ,20 to <40 percent impaired,"At least 20 percent but less than 40 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CK,40 to <60 percent impaired,"At least 40 percent but less than 60 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CL,60 to <80 percent impaired,"At least 60 percent but less than 80 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CM,80 to <100 percent impaired,"At least 80 percent but less than 100 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CN,"100 percent impaired, ltd","100 percent impaired, limited or restricted",,active,2013-01-01T00:00:00Z
+CO,Outpatient ot service by ota,Outpatient occupational therapy services furnished in whole or in part by an,,active,2019-01-01T00:00:00Z
+CP,C-apc adjunctive service,Adjunctive service related to a procedure assigned to a comprehensive,,deprecated,2016-01-01T00:00:00Z
+CQ,Outpatient pt service by pta,Outpatient physical therapy services furnished in whole or in part by a,,active,2019-01-01T00:00:00Z
+CR,Catastrophe/disaster related,Catastrophe/disaster related,,active,2005-08-21T00:00:00Z
+CS,Cost share waiver covid-19,Cost-sharing waived for specified covid-19 testing-related services that result,,active,2011-01-01T00:00:00Z
+CT,Ct does not meet nema standa,Computed tomography services furnished using equipment that does not meet each,,active,2016-01-01T00:00:00Z
+DA,"Oral health assess, not dent",Oral health assessment by a licensed health professional other than a dentist,,active,2011-01-01T00:00:00Z
+E1,Upper left eyelid,"Upper left, eyelid",,active,1995-01-01T00:00:00Z
+E2,Lower left eyelid,"Lower left, eyelid",,active,1995-01-01T00:00:00Z
+E3,Upper right eyelid,"Upper right, eyelid",,active,1995-01-01T00:00:00Z
+E4,Lower right eyelid,"Lower right, eyelid",,active,1995-01-01T00:00:00Z
+EA,"Esa, anemia, chemo-induced",Erythropoietic stimulating agent (esa) administered to treat anemia due to,,active,2008-01-01T00:00:00Z
+EB,"Esa, anemia, radio-induced",Erythropoietic stimulating agent (esa) administered to treat anemia due to,,active,2008-01-01T00:00:00Z
+EC,"Esa, anemia, non-chemo/radio",Erythropoietic stimulating agent (esa) administered to treat anemia not due to,,active,2008-01-01T00:00:00Z
+ED,Hct>39% or hgb>13g>=3 cycle,Hematocrit level has exceeded 39% (or hemoglobin level has exceeded 13.0 g/dl),,active,2008-01-01T00:00:00Z
+EE,Hct>39% or hgb>13g<3 cycle,Hematocrit level has not exceeded 39% (or hemoglobin level has not exceeded,,active,2008-01-01T00:00:00Z
+EJ,Subsequent claim,"Subsequent claims for a defined course of therapy, e.g., epo, sodium",,active,1991-01-01T00:00:00Z
+EM,Emer reserve supply (esrd),Emergency reserve supply (for esrd benefit only),,active,1991-01-01T00:00:00Z
+EP,Medicaid epsdt program svc,Service provided as part of medicaid early periodic screening diagnosis and,,active,1987-01-01T00:00:00Z
+ER,Off-campus ed service,"Items and services furnished by a provider-based, off-campus emergency",,active,2019-01-01T00:00:00Z
+ET,Emergency services,Emergency services,,active,1984-01-01T00:00:00Z
+EX,Expatriate beneficiary,Expatriate beneficiary,,active,2015-04-01T00:00:00Z
+EY,No md order for item/service,No physician or other licensed health care provider order for this item or,,active,2003-01-01T00:00:00Z
+F1,"Left hand, second digit","Left hand, second digit",,active,1995-01-01T00:00:00Z
+F2,"Left hand, third digit","Left hand, third digit",,active,1995-01-01T00:00:00Z
+F3,"Left hand, fourth digit","Left hand, fourth digit",,active,1995-01-01T00:00:00Z
+F4,"Left hand, fifth digit","Left hand, fifth digit",,active,1995-01-01T00:00:00Z
+F5,"Right hand, thumb","Right hand, thumb",,active,1995-01-01T00:00:00Z
+F6,"Right hand, second digit","Right hand, second digit",,active,1995-01-01T00:00:00Z
+F7,"Right hand, third digit","Right hand, third digit",,active,1995-01-01T00:00:00Z
+F8,"Right hand, fourth digit","Right hand, fourth digit",,active,1995-01-01T00:00:00Z
+F9,"Right hand, fifth digit","Right hand, fifth digit",,active,1995-01-01T00:00:00Z
+FA,"Left hand, thumb","Left hand, thumb",,active,1995-01-01T00:00:00Z
+FB,Item provided without cost,"Item provided without cost to provider, supplier or practitioner, or full",,active,2006-01-01T00:00:00Z
+FC,"Part credit, replaced device",Partial credit received for replaced device,,active,2008-01-01T00:00:00Z
+FP,Svc part of family plan pgm,Service provided as part of family planning program,,active,1987-01-01T00:00:00Z
+FQ,Audio-only service,The service was furnished using audio-only communication technology,,active,2022-01-01T00:00:00Z
+FR,Two-way a/v dir supervision,"The supervising practitioner was present through two-way, audio/video",,active,2022-01-01T00:00:00Z
+FS,Split or shared e/m visit,Split (or shared) evaluation and management visit,,active,2022-01-01T00:00:00Z
+FT,"Separate, unrelated e/m",Unrelated evaluation and management (e/m) visit on the same day as another e/m,,active,2022-01-01T00:00:00Z
+FX,X-ray taken using film,X-ray taken using film,,active,2017-01-01T00:00:00Z
+FY,Computed radiography x-ray,X-ray taken using computed radiography technology/cassette-based imaging,,active,2018-01-01T00:00:00Z
+G0,Telestroke,"Telehealth services for diagnosis, evaluation, or treatment, of symptoms of an",,active,2019-01-01T00:00:00Z
+G1,Urr reading of less than 60,Most recent urr reading of less than 60,,active,1997-01-01T00:00:00Z
+G2,Urr reading of 60 to 64.9,Most recent urr reading of 60 to 64.9,,active,1997-01-01T00:00:00Z
+G3,Urr  reading of 65 to 69.9,Most recent urr reading of 65 to 69.9,,active,1997-01-01T00:00:00Z
+G4,Urr reading of 70 to 74.9,Most recent urr reading of 70 to 74.9,,active,1997-01-01T00:00:00Z
+G5,Urr reading of 75 or greater,Most recent urr reading of 75 or greater,,active,1997-01-01T00:00:00Z
+G6,Esrd patient <6 dialysis/mth,Esrd patient for whom less than six dialysis sessions have been provided in a,,active,1998-05-01T00:00:00Z
+G7,Payment limits do not apply,Pregnancy resulted from rape or incest or pregnancy certified by physician as,,active,1999-07-01T00:00:00Z
+G8,Monitored anesthesia care,"Monitored anesthesia care (mac) for deep complex, complicated, or markedly",,active,1999-07-01T00:00:00Z
+G9,Mac for at risk patient,Monitored anesthesia care for patient who has history of severe,,active,1999-07-01T00:00:00Z
+GA,Liability waiver ind case,"Waiver of liability statement issued as required by payer policy, individual",,active,1995-01-01T00:00:00Z
+GB,Claim resubmitted,Claim being re-submitted for payment because it is no longer covered under a,,active,2002-01-01T00:00:00Z
+GC,Resident/teaching phys serv,This service has been performed in part by a resident under the direction of a,,active,1997-01-01T00:00:00Z
+GD,Unit of service > mue value,Units of service exceeds medically unlikely edit value and represents,,deprecated,2008-01-01T00:00:00Z
+GE,Resident prim care exception,This service has been performed by a resident without the presence of a,,active,1997-01-01T00:00:00Z
+GF,Nonphysician serv c a hosp,"Non-physician (e.g. nurse practitioner (np), certified registered nurse",,active,2003-04-01T00:00:00Z
+GG,Payment screen mam + diagmam,Performance and payment of a screening mammogram and diagnostic mammogram on,,active,2002-01-01T00:00:00Z
+GH,Diag mammo to screening mamo,Diagnostic mammogram converted from screening mammogram on same day,,active,1998-10-01T00:00:00Z
+GJ,Opt out provider of er srvc,"""opt out"" physician or practitioner emergency or urgent service",,active,1998-10-01T00:00:00Z
+GK,Actual item/service ordered,Reasonable and necessary item/service associated with a ga or gz modifier,,active,2002-01-01T00:00:00Z
+GL,"Upgraded item, no charge","Medically unnecessary upgrade provided instead of non-upgraded item, no charge,",,active,2002-01-01T00:00:00Z
+GM,Multiple transports,Multiple patients on one ambulance trip,,active,2002-01-01T00:00:00Z
+GN,Op speech language service,Services delivered under an outpatient speech language pathology plan of care,,active,1999-01-01T00:00:00Z
+GO,Op occupational therapy serv,Services delivered under an outpatient occupational therapy plan of care,,active,1999-01-01T00:00:00Z
+GP,Op pt services,Services delivered under an outpatient physical therapy plan of care,,active,1999-01-01T00:00:00Z
+GQ,Telehealth store and forward,Via asynchronous telecommunications system,,active,2001-10-01T00:00:00Z
+GR,Service by va resident,This service was performed in whole or in part by a resident in a department of,,active,2006-01-01T00:00:00Z
+GS,Epo/darbepoietin reduced 25%,Dosage of erythropoietin stimulating agent has been reduced and maintained in,,active,2006-01-01T00:00:00Z
+GT,Interactivetelecommunication,Via interactive audio and video telecommunication systems,,active,1999-01-01T00:00:00Z
+GU,Liability waiver rout notice,"Waiver of liability statement issued as required by payer policy, routine notice",,active,2011-01-01T00:00:00Z
+GV,Attending phys not hospice,Attending physician not employed or paid under arrangement by the patient's,,active,2002-01-01T00:00:00Z
+GW,Service unrelated to term co,Service not related to the hospice patient's terminal condition,,active,2002-01-01T00:00:00Z
+GX,Voluntary liability notice,"Notice of liability issued, voluntary under payer policy",,active,2010-04-01T00:00:00Z
+GY,Statutorily excluded,"Item or service statutorily excluded, does not meet the definition of any",,active,2002-01-01T00:00:00Z
+GZ,Not reasonable and necessary,Item or service expected to be denied as not reasonable and necessary,,active,2002-01-01T00:00:00Z
+H9,Court-ordered,Court-ordered,,active,2003-01-01T00:00:00Z
+HA,Child/adolescent program,Child/adolescent program,,active,2003-01-01T00:00:00Z
+HB,Adult program non-geriatric,"Adult program, non geriatric",,active,2003-01-01T00:00:00Z
+HC,Adult program geriatric,"Adult program, geriatric",,active,2003-01-01T00:00:00Z
+HD,Pregnant/parenting program,Pregnant/parenting women's program,,active,2003-01-01T00:00:00Z
+HE,Mental health program,Mental health program,,active,2003-01-01T00:00:00Z
+HF,Substance abuse program,Substance abuse program,,active,2003-01-01T00:00:00Z
+HG,Opioid addiction tx program,Opioid addiction treatment program,,active,2003-01-01T00:00:00Z
+HH,Mental hlth/substance abs pr,Integrated mental health/substance abuse program,,active,2003-01-01T00:00:00Z
+HI,Men hlth intel/dev disab pgm,Integrated mental health and intellectual disability/developmental disabilities,,active,2003-01-01T00:00:00Z
+HJ,Employee assistance program,Employee assistance program,,active,2003-01-01T00:00:00Z
+HK,Spec hgh rsk mntl hlth pop p,Specialized mental health programs for high-risk populations,,active,2003-01-01T00:00:00Z
+HL,Intern,Intern,,active,2003-01-01T00:00:00Z
+HM,Less than bachelor degree lv,Less than bachelor degree level,,active,2003-01-01T00:00:00Z
+HN,Bachelors degree level,Bachelors degree level,,active,2003-01-01T00:00:00Z
+HO,Masters degree level,Masters degree level,,active,2003-01-01T00:00:00Z
+HP,Doctoral level,Doctoral level,,active,2003-01-01T00:00:00Z
+HQ,Group setting,Group setting,,active,2003-01-01T00:00:00Z
+HR,Family/couple w client prsnt,Family/couple with client present,,active,2003-01-01T00:00:00Z
+HS,Family/couple w/o client prs,Family/couple without client present,,active,2003-01-01T00:00:00Z
+HT,Multi-disciplinary team,Multi-disciplinary team,,active,2003-01-01T00:00:00Z
+HU,Child welfare agency funded,Funded by child welfare agency,,active,2003-01-01T00:00:00Z
+HV,Funded state addiction agncy,Funded state addictions agency,,active,2003-01-01T00:00:00Z
+HW,State mntl hlth agncy funded,Funded by state mental health agency,,active,2003-01-01T00:00:00Z
+HX,County/local agency funded,Funded by county/local agency,,active,2003-01-01T00:00:00Z
+HY,Funded by juvenile justice,Funded by juvenile justice agency,,active,2003-01-01T00:00:00Z
+HZ,Criminal justice agncy fund,Funded by criminal justice agency,,active,2003-01-01T00:00:00Z
+J1,Cap no-pay for prescript num,Competitive acquisition program no-pay submission for a prescription number,,active,2006-01-01T00:00:00Z
+J2,Cap restock of emerg drugs,"Competitive acquisition program, restocking of emergency drugs after emergency",,active,2006-01-01T00:00:00Z
+J3,Cap drug unavail thru cap,"Competitive acquisition program (cap), drug not available through cap as",,active,2006-01-01T00:00:00Z
+J4,Dmepos comp bid furn by hosp,Dmepos item subject to dmepos competitive bidding program that is furnished by,,active,2010-01-01T00:00:00Z
+J5,Dmepos comp bid fur by pt/ot,Off-the-shelf orthotic subject to dmepos competitive bidding program that is,,active,2020-10-01T00:00:00Z
+JA,Administered intravenously,Administered intravenously,,active,2007-01-01T00:00:00Z
+JB,Administered subcutaneously,Administered subcutaneously,,active,2007-01-01T00:00:00Z
+JC,Skin substitute graft,Skin substitute used as a graft,,active,2009-01-01T00:00:00Z
+JD,Skin sub not used as a graft,Skin substitute not used as a graft,,active,2009-01-01T00:00:00Z
+JE,Administered via dialysate,Administered via dialysate,,active,2013-07-01T00:00:00Z
+JF,Compounded drug,Compounded drug,,deprecated,2015-04-01T00:00:00Z
+JG,340b acquired drug,"Drug or biological acquired with 340b drug pricing program discount, reported",,deprecated,2018-01-01T00:00:00Z
+JK,Drug supply 1 month or less,One month supply or less of drug or biological,,active,2023-04-01T00:00:00Z
+JL,Drug 3 month supply,Three month supply of drug or biological,,active,2023-04-01T00:00:00Z
+JW,Discarded drug not administe,Drug amount discarded/not administered to any patient,,active,2003-01-01T00:00:00Z
+JZ,Zero drug wasted,Zero drug amount discarded/not administered to any patient,,active,2023-01-01T00:00:00Z
+K0,Lwr ext prost functnl lvl 0,Lower extremity prosthesis functional level 0 - does not have the ability or,,active,1993-01-01T00:00:00Z
+K1,Lwr ext prost functnl lvl 1,Lower extremity prosthesis functional level 1 - has the ability or potential to,,active,1993-01-01T00:00:00Z
+K2,Lwr ext prost functnl lvl 2,Lower extremity prosthesis functional level 2 - has the ability or potential,,active,1993-01-01T00:00:00Z
+K3,Lwr ext prost functnl lvl 3,Lower extremity prosthesis functional level 3 - has the ability or potential,,active,1993-01-01T00:00:00Z
+K4,Lwr ext prost functnl lvl 4,Lower extremity prosthesis functional level 4 - has the ability or potential,,active,1993-01-01T00:00:00Z
+KA,Wheelchair add-on option/acc,Add on option/accessory for wheelchair,,active,1994-01-01T00:00:00Z
+KB,>4 modifiers on claim,"Beneficiary requested upgrade for abn, more than 4 modifiers identified on claim",,active,2003-01-01T00:00:00Z
+KC,Repl special pwr wc intrface,Replacement of special power wheelchair interface,,active,2005-01-01T00:00:00Z
+KD,Drug/biological dme infused,Drug or biological infused through dme,,active,2004-01-01T00:00:00Z
+KE,Bid under round 1 dmepos cb,Bid under round one of the dmepos competitive bidding program for use with,,active,2009-01-01T00:00:00Z
+KF,Fda class iii device,Item designated by fda as class iii device,,active,2004-04-01T00:00:00Z
+KG,Dmepos comp bid prgm no 1,Dmepos item subject to dmepos competitive bidding program number 1,,active,2007-07-01T00:00:00Z
+KH,"Dmepos ini clm, pur/1 mo rnt","Dmepos item, initial claim, purchase or first month rental",,active,1994-01-01T00:00:00Z
+KI,Dmepos 2nd or 3rd mo rental,"Dmepos item, second or third month rental",,active,1994-01-01T00:00:00Z
+KJ,Dmepos pen pmp or 4-15mo rnt,"Dmepos item, parenteral enteral nutrition (pen) pump or capped rental, months",,active,1994-01-01T00:00:00Z
+KK,Dmepos comp bid prgm no 2,Dmepos item subject to dmepos competitive bidding program number 2,,active,2007-07-01T00:00:00Z
+KL,Dmepos mailorder comp bid,Dmepos item delivered via mail,,active,2007-07-01T00:00:00Z
+KM,Rplc facial prosth new imp,Replacement of facial prosthesis including new impression/moulage,,active,1996-01-01T00:00:00Z
+KN,Rplc facial prosth old mod,Replacement of facial prosthesis using previous master model,,active,1996-01-01T00:00:00Z
+KO,Single drug unit dose form,Single drug unit dose formulation,,active,1997-04-01T00:00:00Z
+KP,First drug of multi drug u d,First drug of a multiple drug unit dose formulation,,active,1997-04-01T00:00:00Z
+KQ,2nd/subsqnt drg multi drg ud,Second or subsequent drug of a multiple drug unit dose formulation,,active,1997-04-01T00:00:00Z
+KR,Rental item partial month,"Rental item, billing for partial month",,active,2002-01-01T00:00:00Z
+KS,Glucose monitor supply,Glucose monitor supply for diabetic beneficiary not treated with insulin,,active,1998-10-01T00:00:00Z
+KT,Item from noncontract supply,Beneficiary resides in a competitive bidding area and travels outside that,,active,2007-07-01T00:00:00Z
+KU,Dmepos comp bid prgm no 3,Dmepos item subject to dmepos competitive bidding program number 3,,active,2007-07-01T00:00:00Z
+KV,"Dmepos item, profession serv",Dmepos item subject to dmepos competitive bidding program that is furnished as,,active,2008-01-01T00:00:00Z
+KW,Dmepos comp bid prgm no 4,Dmepos item subject to dmepos competitive bidding program number 4,,active,2008-01-01T00:00:00Z
+KX,Documentation on file,Requirements specified in the medical policy have been met,,active,2002-07-01T00:00:00Z
+KY,Dmepos comp bid prgm no 5,Dmepos item subject to dmepos competitive bidding program number 5,,active,2008-01-01T00:00:00Z
+KZ,New cov not implement by m+c,New coverage not implemented by managed care,,active,2003-10-01T00:00:00Z
+L1,Separately payable lab test,Provider attestation that the hospital laboratory test(s) is not packaged under,,deprecated,2014-07-01T00:00:00Z
+LC,Lft circum coronary artery,Left circumflex coronary artery,,active,1997-01-01T00:00:00Z
+LD,Left ant des coronary artery,Left anterior descending coronary artery,,active,1997-01-01T00:00:00Z
+LL,Lease/rental (appld to pur),Lease/rental (use the 'll' modifier when dme equipment rental is to be applied,,active,1984-01-01T00:00:00Z
+LM,Left main coronary artery,Left main coronary artery,,active,2013-01-01T00:00:00Z
+LR,Laboratory round trip,Laboratory round trip,,active,1987-01-01T00:00:00Z
+LS,Fda-monitored iol implant,Fda-monitored intraocular lens implant,,active,1991-01-01T00:00:00Z
+LT,Left side,Left side (used to identify procedures performed on the left side of the body),,active,1984-01-01T00:00:00Z
+LU,Fractionated payment,Fractionated payment,,active,2022-01-01T00:00:00Z
+M2,Medicare secondary payer,Medicare secondary payer (msp),,active,2007-01-01T00:00:00Z
+MA,Emer med cond susp/confirm,Ordering professional is not required to consult a clinical decision support,,deprecated,2020-01-01T00:00:00Z
+MB,"Auc hardship, insuf internet",Ordering professional is not required to consult a clinical decision support,,deprecated,2020-01-01T00:00:00Z
+MC,"Auc hardship, vendor issues",Ordering professional is not required to consult a clinical decision support,,deprecated,2020-01-01T00:00:00Z
+MD,"Auc hardship, extreme circ",Ordering professional is not required to consult a clinical decision support,,deprecated,2020-01-01T00:00:00Z
+ME,Order adheres to auc,The order for this service adheres to appropriate use criteria in the clinical,,deprecated,2020-01-01T00:00:00Z
+MF,Order does not adhere to auc,The order for this service does not adhere to the appropriate use criteria in,,deprecated,2020-01-01T00:00:00Z
+MG,Auc not applicable to order,The order for this service does not have applicable appropriate use criteria in,,deprecated,2020-01-01T00:00:00Z
+MH,Auc consult not provided,Unknown if ordering professional consulted a clinical decision support,,deprecated,2020-01-01T00:00:00Z
+MS,6-mo maint/svc fee parts/lbr,Six month maintenance and servicing fee for reasonable and necessary parts and,,active,1989-01-01T00:00:00Z
+N1,Group 1 oxygen cov crit met,Group 1 oxygen coverage criteria met,,active,2023-01-01T00:00:00Z
+N2,Group 2 oxygen cov crit met,Group 2 oxygen coverage criteria met,,active,2023-01-01T00:00:00Z
+N3,Group 3 oxygen cov crit met,Group 3 oxygen coverage criteria met,,active,2023-01-01T00:00:00Z
+NB,Drug specific nebulizer,"Nebulizer system, any type, fda-cleared for use with specific drug",,active,2011-01-01T00:00:00Z
+NR,New when rented,New when rented (use the 'nr' modifier when dme which was new at the time of,,active,1984-01-01T00:00:00Z
+NU,New equipment,New equipment,,active,1984-01-01T00:00:00Z
+P1,Normal healthy patient,A normal healthy patient,,active,2006-01-01T00:00:00Z
+P2,Patient w/mild syst disease,A patient with mild systemic disease,,active,2006-01-01T00:00:00Z
+P3,Patient w/severe sys disease,A patient with severe systemic disease,,active,2006-01-01T00:00:00Z
+P4,Pt w/sev sys dis threat life,A patient with severe systemic disease that is a constant threat to life,,active,2006-01-01T00:00:00Z
+P5,Pt not expect surv w/o oper,A moribund patient who is not expected to survive without the operation,,active,2006-01-01T00:00:00Z
+P6,Brain-dead pt organs removed,A declared brain-dead patient whose organs are being removed for donor purposes,,active,2006-01-01T00:00:00Z
+PA,"Surgery, wrong body part",Surgical or other invasive procedure on wrong body part,,active,2009-07-01T00:00:00Z
+PB,"Surgery, wrong patient",Surgical or other invasive procedure on wrong patient,,active,2009-07-01T00:00:00Z
+PC,Wrong surgery on patient,Wrong surgery or other invasive procedure on patient,,active,2009-07-01T00:00:00Z
+PD,Inp admit w/in 3 days,Diagnostic or related non diagnostic item or service provided in a wholly owned,,active,2012-01-01T00:00:00Z
+PI,Pet tumor init tx strat,Positron emission tomography (pet) or pet/computed tomography (ct) to inform,,active,2009-07-01T00:00:00Z
+PL,Progressive addition lenses,Progressive addition lenses,,active,1989-01-01T00:00:00Z
+PM,Post mortem,Post mortem,,active,2014-01-01T00:00:00Z
+PN,Non-excepted off-campus svc,"Non-excepted service provided at an off-campus, outpatient, provider-based",,active,2017-01-01T00:00:00Z
+PO,Excepted off-campus service,"Excepted service provided at an off-campus, outpatient, provider-based",,active,2015-01-01T00:00:00Z
+PS,Pet tumor subsq tx strategy,Positron emission tomography (pet) or pet/computed tomography (ct) to inform,,active,2009-07-01T00:00:00Z
+PT,Clrctal screen to diagn,Colorectal cancer screening test; converted to diagnostic test or other,,active,2011-01-01T00:00:00Z
+Q0,Invest clinical research,Investigational clinical service provided in a clinical research study that is,,active,2008-01-01T00:00:00Z
+Q1,Routine clinical research,Routine clinical service provided in a clinical research study that is in an,,active,2008-01-01T00:00:00Z
+Q2,"Demo procedure, service",Demonstration procedure/service,,active,1992-01-01T00:00:00Z
+Q3,Live donor surgery/services,Live kidney donor surgery and related services,,active,1995-01-01T00:00:00Z
+Q4,Svc exempt - ordrg/rfrng md,Service for ordering/referring physician qualifies as a service exemption,,active,1994-01-01T00:00:00Z
+Q5,Recip bill arr subs md or pt,Service furnished under a reciprocal billing arrangement by a substitute,,active,1993-01-01T00:00:00Z
+Q6,Fee/time comp subst md or pt,Service furnished under a fee-for-time compensation arrangement by a substitute,,active,1993-01-01T00:00:00Z
+Q7,One class a finding,One class a finding,,active,1995-01-01T00:00:00Z
+Q8,Two class b findings,Two class b findings,,active,1995-01-01T00:00:00Z
+Q9,1 class b & 2 class c fndngs,One class b and two class c findings,,active,1995-01-01T00:00:00Z
+QA,Avg sta day/night o2 < 1 lpm,Prescribed amounts of stationary oxygen for daytime use while at rest and,,active,2018-04-01T00:00:00Z
+QB,Avg day/nite o2 > 4 lpm/port,Prescribed amounts of stationary oxygen for daytime use while at rest and,,active,2018-04-01T00:00:00Z
+QC,Single channel monitoring,Single channel monitoring,,active,1989-01-01T00:00:00Z
+QD,Rcrdg/strg in sld st memory,Recording and storage in solid state memory by a digital recorder,,active,1989-01-01T00:00:00Z
+QE,Stationary o2 @ rest <1 lpm,Prescribed amount of stationary oxygen while at rest is less than 1 liter per,,active,1989-01-01T00:00:00Z
+QF,Station o2 @ rest >4lpm/port,Prescribed amount of stationary oxygen while at rest exceeds 4 liters per,,active,1989-01-01T00:00:00Z
+QG,Station o2 @ rest > 4 lpm,Prescribed amount of stationary oxygen while at rest is greater than 4 liters,,active,1989-01-01T00:00:00Z
+QH,Oxygen cnsrvg dvc w del sys,Oxygen conserving device is being used with an oxygen delivery system,,active,1989-01-01T00:00:00Z
+QJ,Patient in state/locl custod,"Services/items provided to a prisoner or patient in state or local custody,",,active,2003-01-01T00:00:00Z
+QK,Med dir 2-4 cncrnt anes proc,"Medical direction of two, three, or four concurrent anesthesia procedures",,active,1995-01-01T00:00:00Z
+QL,Patient died after amb call,Patient pronounced dead after ambulance called,,active,1999-01-01T00:00:00Z
+QM,Ambulance arr by provider,Ambulance service provided under arrangement by a provider of services,,active,1996-01-01T00:00:00Z
+QN,Ambulance furn by provider,Ambulance service furnished directly by a provider of services,,active,1996-01-01T00:00:00Z
+QP,Individually ordered lab tst,Documentation is on file showing that the laboratory test(s) was ordered,,active,1996-01-01T00:00:00Z
+QQ,Qualified cdsm consulted,Ordering professional consulted a qualified clinical decision support mechanism,,deprecated,2018-07-01T00:00:00Z
+QR,Avg sta day/night o2 > 4 lpm,Prescribed amounts of stationary oxygen for daytime use while at rest and,,active,2018-04-01T00:00:00Z
+QS,Monitored anesthesia care,Monitored anesthesia care service,,active,1990-01-01T00:00:00Z
+QT,Rcrdg/strg tape analog recdr,Recording and storage on tape by an analog tape recorder,,active,1989-01-01T00:00:00Z
+QW,Clia waived test,Clia waived test,,active,1996-01-01T00:00:00Z
+QX,Crna svc w/ md med direction,Crna service: with medical direction by a physician,,active,1993-01-01T00:00:00Z
+QY,Medically directed crna,Medical direction of one certified registered nurse anesthetist (crna) by an,,active,1998-01-01T00:00:00Z
+QZ,Crna svc w/o med dir by md,Crna service: without medical direction by a physician,,active,1993-01-01T00:00:00Z
+RA,Replacement of dme item,"Replacement of a dme, orthotic or prosthetic item",,active,2009-01-01T00:00:00Z
+RB,"Replacement part, dme item","Replacement of a part of a dme, orthotic or prosthetic item furnished as part",,active,2009-01-01T00:00:00Z
+RC,Right coronary artery,Right coronary artery,,active,1997-01-01T00:00:00Z
+RD,Drug admin not incident-to,"Drug provided to beneficiary, but not administered ""incident-to""",,active,2004-01-01T00:00:00Z
+RE,Furnish full compliance rems,Furnished in full compliance with fda-mandated risk evaluation and mitigation,,active,2009-01-01T00:00:00Z
+RI,Ramus intermedius cor artery,Ramus intermedius coronary artery,,active,2013-01-01T00:00:00Z
+RR,Rental (dme),Rental (use the 'rr' modifier when dme is to be rented),,active,1984-01-01T00:00:00Z
+RT,Right side,Right side (used to identify procedures performed on the right side of the body),,active,1984-01-01T00:00:00Z
+SA,Nurse practitioner w physici,Nurse practitioner rendering service in collaboration with a physician,,active,2001-07-01T00:00:00Z
+SB,Nurse midwife,Nurse midwife,,active,2001-07-01T00:00:00Z
+SC,Medically necessary serv/sup,Medically necessary service or supply,,active,2001-07-01T00:00:00Z
+SD,Serv by home infusion rn,"Services provided by registered nurse with specialized, highly technical home",,active,2001-07-01T00:00:00Z
+SE,State/fed funded program/ser,State and/or federally-funded programs/services,,active,2001-07-01T00:00:00Z
+SF,2nd opinion ordered by pro,Second opinion ordered by a professional review organization (pro) per section,,active,1987-01-01T00:00:00Z
+SG,Asc facility service,Ambulatory surgical center (asc) facility service,,active,1992-01-01T00:00:00Z
+SH,2nd concurrent infusion ther,Second concurrently administered infusion therapy,,active,2001-07-01T00:00:00Z
+SJ,3rd concurrent infusion ther,Third or more concurrently administered infusion therapy,,active,2001-07-01T00:00:00Z
+SK,High risk population,Member of high risk population (use only with codes for immunization),,active,2002-04-01T00:00:00Z
+SL,State supplied vaccine,State supplied vaccine,,active,2002-04-01T00:00:00Z
+SM,Second opinion,Second surgical opinion,,active,2002-07-01T00:00:00Z
+SN,Third opinion,Third surgical opinion,,active,2002-07-01T00:00:00Z
+SQ,Item ordered by home health,Item ordered by home health,,active,2002-10-01T00:00:00Z
+SS,Hit in infusion suite,Home infusion services provided in the infusion suite of the iv therapy provider,,active,2004-10-01T00:00:00Z
+ST,Related to trauma or injury,Related to trauma or injury,,active,2003-01-01T00:00:00Z
+SU,Performed in phys office,Procedure performed in physician's office (to denote use of facility and,,active,2003-01-01T00:00:00Z
+SV,Drugs delivered not used,Pharmaceuticals delivered to patient's home but not utilized,,active,2003-01-01T00:00:00Z
+SW,Serv by cert diab educator,Services provided by a certified diabetic educator,,active,2004-04-01T00:00:00Z
+SY,Contact w/high-risk pop,Persons who are in close contact with member of high-risk population (use only,,active,2005-01-01T00:00:00Z
+SZ,Habilitative services,Habilitative services,,deprecated,2014-07-01T00:00:00Z
+T1,"Left foot, second digit","Left foot, second digit",,active,1995-01-01T00:00:00Z
+T2,"Left foot, third digit","Left foot, third digit",,active,1995-01-01T00:00:00Z
+T3,"Left foot, fourth digit","Left foot, fourth digit",,active,1995-01-01T00:00:00Z
+T4,"Left foot, fifth digit","Left foot, fifth digit",,active,1995-01-01T00:00:00Z
+T5,"Right foot, great toe","Right foot, great toe",,active,1995-01-01T00:00:00Z
+T6,"Right foot, second digit","Right foot, second digit",,active,1995-01-01T00:00:00Z
+T7,"Right foot, third digit","Right foot, third digit",,active,1995-01-01T00:00:00Z
+T8,"Right foot, fourth digit","Right foot, fourth digit",,active,1995-01-01T00:00:00Z
+T9,"Right foot, fifth digit","Right foot, fifth digit",,active,1995-01-01T00:00:00Z
+TA,"Left foot, great toe","Left foot, great toe",,active,1995-01-01T00:00:00Z
+TB,340b drug,"Drug or biological acquired with 340b drug pricing program discount, reported",,active,2018-01-01T00:00:00Z
+TC,Technical component,"Technical component; under certain circumstances, a charge may be made for the",,active,1984-01-01T00:00:00Z
+TD,Rn,Rn,,active,2001-07-01T00:00:00Z
+TE,Lpn/lvn,Lpn/lvn,,active,2001-07-01T00:00:00Z
+TF,Intermediate level of care,Intermediate level of care,,active,2001-07-01T00:00:00Z
+TG,Complex/high tech level care,Complex/high tech level of care,,active,2001-07-01T00:00:00Z
+TH,Ob tx/srvcs prenatl/postpart,"Obstetrical treatment/services, prenatal or postpartum",,active,2001-07-01T00:00:00Z
+TJ,Child/adolescent program gp,"Program group, child and/or adolescent",,active,2001-07-01T00:00:00Z
+TK,Extra patient or passenger,"Extra patient or passenger, non-ambulance",,active,2002-04-01T00:00:00Z
+TL,Early intervention ifsp,Early intervention/individualized family service plan (ifsp),,active,2002-04-01T00:00:00Z
+TM,Individualized ed prgrm(iep),Individualized education program (iep),,active,2002-04-01T00:00:00Z
+TN,Rural/out of service area,Rural/outside providers' customary service area,,active,2002-04-01T00:00:00Z
+TP,Med transprt unloaded vehicl,"Medical transport, unloaded vehicle",,active,2002-04-01T00:00:00Z
+TQ,Bls by volunteer amb providr,Basic life support transport by a volunteer ambulance provider,,active,2002-04-01T00:00:00Z
+TR,School-based iep out of dist,School-based individualized education program (iep) services provided outside,,active,2002-07-01T00:00:00Z
+TS,Follow-up service,Follow-up service,,active,2002-10-01T00:00:00Z
+TT,Additional patient,Individualized service provided to more than one patient in same setting,,active,2002-10-01T00:00:00Z
+TU,Overtime payment rate,"Special payment rate, overtime",,active,2003-01-01T00:00:00Z
+TV,Holiday/weekend payment rate,"Special payment rates, holidays/weekends",,active,2003-01-01T00:00:00Z
+TW,Back-up equipment,Back-up equipment,,active,2003-01-01T00:00:00Z
+U1,M/caid care lev 1 state def,"Medicaid level of care 1, as defined by each state",,active,2002-07-01T00:00:00Z
+U2,M/caid care lev 2 state def,"Medicaid level of care 2, as defined by each state",,active,2002-07-01T00:00:00Z
+U3,M/caid care lev 3 state def,"Medicaid level of care 3, as defined by each state",,active,2002-07-01T00:00:00Z
+U4,M/caid care lev 4 state def,"Medicaid level of care 4, as defined by each state",,active,2002-07-01T00:00:00Z
+U5,M/caid care lev 5 state def,"Medicaid level of care 5, as defined by each state",,active,2002-07-01T00:00:00Z
+U6,M/caid care lev 6 state def,"Medicaid level of care 6, as defined by each state",,active,2002-07-01T00:00:00Z
+U7,M/caid care lev 7 state def,"Medicaid level of care 7, as defined by each state",,active,2002-07-01T00:00:00Z
+U8,M/caid care lev 8 state def,"Medicaid level of care 8, as defined by each state",,active,2002-07-01T00:00:00Z
+U9,M/caid care lev 9 state def,"Medicaid level of care 9, as defined by each state",,active,2002-07-01T00:00:00Z
+UA,M/caid care lev 10 state def,"Medicaid level of care 10, as defined by each state",,active,2002-07-01T00:00:00Z
+UB,M/caid care lev 11 state def,"Medicaid level of care 11, as defined by each state",,active,2002-07-01T00:00:00Z
+UC,M/caid care lev 12 state def,"Medicaid level of care 12, as defined by each state",,active,2002-07-01T00:00:00Z
+UD,M/caid care lev 13 state def,"Medicaid level of care 13, as defined by each state",,active,2002-07-01T00:00:00Z
+UE,Used durable med equipment,Used durable medical equipment,,active,1984-01-01T00:00:00Z
+UF,"Services provided, morning",Services provided in the morning,,active,2003-04-01T00:00:00Z
+UG,"Services provided, afternoon",Services provided in the afternoon,,active,2003-04-01T00:00:00Z
+UH,"Services provided, evening",Services provided in the evening,,active,2003-04-01T00:00:00Z
+UJ,"Services provided, night",Services provided at night,,active,2003-04-01T00:00:00Z
+UK,Svc on behalf client-collat,Services provided on behalf of the client to someone other than the client,,active,2003-04-01T00:00:00Z
+UN,Two patients served,Two patients served,,active,2004-01-01T00:00:00Z
+UP,Three patients served,Three patients served,,active,2004-01-01T00:00:00Z
+UQ,Four patients served,Four patients served,,active,2004-01-01T00:00:00Z
+UR,Five patients served,Five patients served,,active,2004-01-01T00:00:00Z
+US,Six or more patients served,Six or more patients served,,active,2004-01-01T00:00:00Z
+V1,Demonstration modifier 1,Demonstration modifier 1,,active,2017-01-01T00:00:00Z
+V2,Demonstration modifier 2,Demonstration modifier 2,,active,2017-01-01T00:00:00Z
+V3,Demonstration modifier 3,Demonstration modifier 3,,active,2017-01-01T00:00:00Z
+V4,Demonstration modifier 4,Demonstration modifier 4,,active,2020-10-01T00:00:00Z
+V5,Vascular catheter,Vascular catheter (alone or with any other vascular access),,active,2010-01-01T00:00:00Z
+V6,Arteriovenous graft,Arteriovenous graft (or other vascular access not including a vascular catheter),,active,2010-01-01T00:00:00Z
+V7,Arteriovenous fistula,Arteriovenous fistula only (in use with two needles),,active,2010-01-01T00:00:00Z
+V8,Infection present,Infection present,,deprecated,2010-01-01T00:00:00Z
+V9,No infection present,No infection present,,deprecated,2010-01-01T00:00:00Z
+VM,Mdpp virtual make-up session,Medicare diabetes prevention program (mdpp) virtual make-up session,,active,2018-04-01T00:00:00Z
+VP,Aphakic patient,Aphakic patient,,active,1984-01-01T00:00:00Z
+X1,Continuous/broad services,"Continuous/broad services: for reporting services by clinicians, who provide",,active,2018-01-01T00:00:00Z
+X2,Continuous/focused services,Continuous/focused services: for reporting services by clinicians whose,,active,2018-01-01T00:00:00Z
+X3,Episodic/broad services,Episodic/broad services: for reporting services by clinicians who have broad,,active,2018-01-01T00:00:00Z
+X4,Episodic/focused services,Episodic/focused services: for reporting services by clinicians who provide,,active,2018-01-01T00:00:00Z
+X5,Svc req by another clinician,Diagnostic services requested by another clinician: for reporting services by a,,active,2018-01-01T00:00:00Z
+XE,Separate encounter,"Separate encounter, a service that is distinct because it occurred during a",,active,2015-01-01T00:00:00Z
+XP,Separate practitioner,"Separate practitioner, a service that is distinct because it was performed by a",,active,2015-01-01T00:00:00Z
+XS,Separate organ/structure,"Separate structure, a service that is distinct because it was performed on a",,active,2015-01-01T00:00:00Z
+XU,Unusual separate service,"Unusual non-overlapping service, the use of a service that is distinct because",,active,2015-01-01T00:00:00Z
+ZA,Novartis/sandoz,Novartis/sandoz,,deprecated,2016-01-01T00:00:00Z
+ZB,Pfizer/hospira,Pfizer/hospira,,deprecated,2016-07-01T00:00:00Z
+ZC,Merck/samsung bioepis,Merck/samsung bioepis,,deprecated,2017-10-01T00:00:00Z

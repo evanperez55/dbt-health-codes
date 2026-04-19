@@ -1,5 +1,5 @@
 name: "dbt_health_codes"
-version: "0.1.0"
+version: "0.2.1"
 config-version: 2
 
 require-dbt-version: [">=1.6.0", "<2.0.0"]
@@ -18,13 +18,9 @@ clean-targets:
 
 seeds:
   dbt_health_codes:
-    +schema: medical_codes
     +quote_columns: true
-    codes_pos:
-      +column_types:
-        code: varchar
-        description_short: varchar
-        description_long: varchar
-        is_billable: boolean
-        status: varchar
-        valid_from: timestamp
+    # We deliberately don't force column_types here — warehouse adapters auto-
+    # detect types from the CSV and get it right in every target we've tested
+    # (DuckDB, Postgres). Forcing types tripped up TIMESTAMP WITH TIME ZONE
+    # detection on valid_from. If your warehouse misdetects, override in your
+    # consuming project's dbt_project.yml under seeds: dbt_health_codes: etc.

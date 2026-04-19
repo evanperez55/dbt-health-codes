@@ -1,0 +1,92 @@
+version: 2
+
+seeds:
+  - name: codes_pos
+    description: "CMS Place of Service codes (52 rows). Ad-hoc release cadence."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+      - name: description_long
+        tests: [not_null]
+
+  - name: codes_carc
+    description: "X12 Claim Adjustment Reason Codes (~300). Tri-annual updates (Mar/Jul/Nov)."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_rarc
+    description: "X12 Remittance Advice Remark Codes (~1,200). Tri-annual updates."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_hcpcs
+    description: "HCPCS Level II codes (~8,700). Quarterly updates (Jan/Apr/Jul/Oct)."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_hcpcs_mod
+    description: "HCPCS Level II modifiers (~400). Quarterly updates."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_icd10cm
+    description: "ICD-10-CM diagnosis codes (~98k). Annual Oct + April mid-year."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+      - name: description_long
+        tests: [not_null]
+
+  - name: codes_icd10pcs
+    description: "ICD-10-PCS procedure codes (~80k). Annual Oct + April mid-year."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_msdrg
+    description: "MS-DRG (Medicare Severity DRG) codes (772, FY2026 v43.1). Annual Oct + April mid-year."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+      - name: weight
+        description: "CMS relative weight — multiply by hospital base rate for Medicare payment."
+      - name: mdc
+        description: "Major Diagnostic Category (e.g. 05 = Circulatory System)."
+
+  - name: codes_ndc
+    description: "FDA National Drug Code (~213k). Daily upstream, weekly in package."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_hipps_hh
+    description: "HIPPS Home Health codes (~2,900). Annual."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_hipps_snf
+    description: "HIPPS Skilled Nursing Facility codes (~33k). Annual."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_hipps_irf
+    description: "HIPPS Inpatient Rehabilitation Facility codes (~450). Annual."
+    columns:
+      - name: code
+        tests: [not_null, unique]
+
+  - name: codes_icd10cm_hierarchy
+    description: "Parent/child edges for ICD-10-CM (85k+ edges). Derived by trimming the dotted suffix."
+    columns:
+      - name: parent_code
+        tests: [not_null]
+      - name: child_code
+        tests: [not_null]
+      - name: relationship
+        tests: [not_null]
