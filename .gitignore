@@ -1,0 +1,10 @@
+target/
+dbt_packages/
+logs/
+.user.yml
+*.duckdb
+*.db
+.DS_Store
+.vscode/
+.idea/
+__pycache__/

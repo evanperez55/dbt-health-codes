@@ -1,0 +1,30 @@
+name: "dbt_health_codes"
+version: "0.1.0"
+config-version: 2
+
+require-dbt-version: [">=1.6.0", "<2.0.0"]
+
+profile: "default"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  dbt_health_codes:
+    +schema: medical_codes
+    +quote_columns: true
+    codes_pos:
+      +column_types:
+        code: varchar
+        description_short: varchar
+        description_long: varchar
+        is_billable: boolean
+        status: varchar
+        valid_from: timestamp
