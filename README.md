@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**MIT-licensed dbt package for US medical code systems.** ICD-10-CM/PCS, HCPCS, CARC, RARC, HIPPS, MS-DRG, NDC, POS, MDC — 439,000+ codes plus 764 cross-system mappings — refreshed on every CMS release.
+**MIT-licensed dbt package for US medical code systems.** ICD-10-CM/PCS, HCPCS, CARC, RARC, HIPPS, MS-DRG, NDC, POS, MDC — 439,000+ codes plus **7,991 cross-system mappings** (MSDRG→MDC, HCPCS→NDC) — refreshed on every CMS release.
 
 > No CPT codes (AMA-licensed). No SNOMED (non-US redistribution restrictions). No dependencies beyond dbt. Free forever.
 
@@ -13,7 +13,7 @@ Add to your `packages.yml`:
 ```yaml
 packages:
   - git: "https://github.com/evanperez55/dbt-health-codes.git"
-    revision: v0.3.0
+    revision: v0.4.0
 ```
 
 Then:
@@ -48,7 +48,7 @@ Or use the built-in macros:
 select {{ hc_lookup('POS', '11') }} as office_description;
 ```
 
-## What's in this package (v0.3.0)
+## What's in this package (v0.4.0)
 
 ### Code systems — 439,352 codes across 13 systems
 
@@ -68,7 +68,7 @@ select {{ hc_lookup('POS', '11') }} as office_description;
 | HIPPS IRF | 446 | CMS | annual |
 | POS (Place of Service) | 52 | HL7 Terminology | ad-hoc |
 
-Plus **85,143 ICD-10-CM parent/child hierarchy edges** in `codes_icd10cm_hierarchy` and **764 MSDRG→MDC crosswalks** in `crosswalks`.
+Plus **85,143 ICD-10-CM parent/child hierarchy edges** in `codes_icd10cm_hierarchy` and **7,991 cross-system mappings** in `crosswalks` — 764 MSDRG→MDC and 7,227 HCPCS→NDC (from the CMS ASP quarterly file).
 
 ### Macros
 
@@ -95,10 +95,9 @@ If you need real-time lookups, there's a hosted REST API at [codes.neurovai.org]
 
 ## Status
 
-**v0.3.0** — adds MDC (26 rows) and first cross-system crosswalks table (764 MSDRG→MDC rows). Tested against Postgres 17 and DuckDB 1.x. Snowflake/BigQuery/Databricks compatibility expected but not yet verified — bug reports welcome.
+**v0.4.0** — adds 7,227 HCPCS→NDC crosswalks from the CMS ASP quarterly file (April 2026, effective Q2). Combined with the v0.3.0 MSDRG→MDC set, the `crosswalks` seed now has 7,991 mappings across two real cross-system relationships. Tested against Postgres 17 and DuckDB 1.x.
 
 Roadmap:
-- **v0.4.0** — HCPCS J-code → NDC crosswalk (from CMS ASP Pricing File)
 - **v0.5.0** — Historical ICD-10-CM (FY2019-2025) for true bitemporal queries
 - **v0.6.0** — RxNorm + LOINC (pending UMLS / Regenstrief licensing)
 - **v1.0.0** — Snowflake/BigQuery/Databricks verified, dbt Hub publication
