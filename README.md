@@ -13,7 +13,7 @@ Add to your `packages.yml`:
 ```yaml
 packages:
   - git: "https://github.com/evanperez55/dbt-health-codes.git"
-    revision: v0.4.0
+    revision: v0.5.0
 ```
 
 Then:
@@ -48,9 +48,9 @@ Or use the built-in macros:
 select {{ hc_lookup('POS', '11') }} as office_description;
 ```
 
-## What's in this package (v0.4.0)
+## What's in this package (v0.5.0)
 
-### Code systems — 439,352 codes across 13 systems
+### Code systems — 438,656 currently-live codes across 13 systems
 
 | System | Rows | Source | Refresh cadence |
 |---|---:|---|---|
@@ -62,10 +62,10 @@ select {{ hc_lookup('POS', '11') }} as office_description;
 | RARC (Remittance Advice Remark) | 1,198 | X12.org | tri-annual |
 | MS-DRG (FY2026 v43.1) | 772 | CMS Table 5 | annual Oct + April mid-year |
 | MDC (Major Diagnostic Categories) | 26 | CMS MS-DRG Definitions Manual | annual Oct |
-| NDC (FDA National Drug Code) | 213,454 | FDA | daily upstream, weekly in package |
-| HIPPS Home Health | 2,908 | CMS | annual |
+| NDC (FDA National Drug Code) | 213,449 | FDA | daily upstream, weekly in package |
+| HIPPS Home Health | 2,268 | CMS | annual |
 | HIPPS SNF | 32,824 | CMS | annual |
-| HIPPS IRF | 446 | CMS | annual |
+| HIPPS IRF | 390 | CMS | annual |
 | POS (Place of Service) | 52 | HL7 Terminology | ad-hoc |
 
 Plus **85,143 ICD-10-CM parent/child hierarchy edges** in `codes_icd10cm_hierarchy` and **7,991 cross-system mappings** in `crosswalks` — 764 MSDRG→MDC and 7,227 HCPCS→NDC (from the CMS ASP quarterly file).
@@ -95,11 +95,11 @@ If you need real-time lookups, there's a hosted REST API at [codes.neurovai.org]
 
 ## Status
 
-**v0.4.0** — adds 7,227 HCPCS→NDC crosswalks from the CMS ASP quarterly file (April 2026, effective Q2). Combined with the v0.3.0 MSDRG→MDC set, the `crosswalks` seed now has 7,991 mappings across two real cross-system relationships. Tested against Postgres 17 and DuckDB 1.x.
+**v0.5.0** — seed correctness pass: 701 already-expired codes (valid_to in the past) dropped from HIPPS and NDC seeds. HIPPS_HH 2,908 → 2,268, HIPPS_IRF 446 → 390, NDC 213,454 → 213,449. Every remaining row is currently valid. The companion hosted API (codes.neurovai.org) now also loads historical ICD-10-CM FY2019-2025 for bitemporal `/history` queries; dbt seeds stay current-only — historical snapshots may ship as a separate seed in v0.6.0.
 
 Roadmap:
-- **v0.5.0** — Historical ICD-10-CM (FY2019-2025) for true bitemporal queries
-- **v0.6.0** — RxNorm + LOINC (pending UMLS / Regenstrief licensing)
+- **v0.6.0** — Historical ICD-10-CM snapshots as a separate seed (codes_icd10cm_historical.csv, one row per code per FY)
+- **v0.7.0** — RxNorm + LOINC (pending UMLS / Regenstrief licensing)
 - **v1.0.0** — Snowflake/BigQuery/Databricks verified, dbt Hub publication
 
 ## License
