@@ -1,0 +1,45 @@
+name: test
+
+# CI for the dbt package itself: ensures every seed loads cleanly into
+# a warehouse and the schema.yml contracts pass. Runs against DuckDB
+# (fastest + zero-config warehouse). If this breaks, the tagged version
+# would fail for anyone running `dbt seed --select dbt_health_codes`.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dbt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dbt-duckdb
+        run: pip install "dbt-duckdb>=1.7"
+      - name: Write test profile
+        run: |
+          mkdir -p ~/.dbt
+          cat > ~/.dbt/profiles.yml <<'EOF'
+          default:
+            target: dev
+            outputs:
+              dev:
+                type: duckdb
+                path: ':memory:'
+                threads: 4
+          EOF
+      - name: dbt deps
+        run: dbt deps --profiles-dir ~/.dbt
+      - name: dbt seed
+        run: dbt seed --profiles-dir ~/.dbt --full-refresh
+      - name: dbt test
+        run: dbt test --profiles-dir ~/.dbt
