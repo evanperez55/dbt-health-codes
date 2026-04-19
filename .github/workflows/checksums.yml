@@ -1,0 +1,37 @@
+name: checksums
+
+# Tamper-evident check: CHECKSUMS.txt must match the current seed contents.
+# If a seed CSV is edited by hand (not via the sync-dbt-seeds bot), this
+# fails the PR — forces every seed change through the provenance chain
+# (CMS/CDC → health-codes ingest → sync-dbt-seeds → this repo).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify each seed matches its recorded SHA256
+        run: |
+          set -e
+          fail=0
+          while IFS= read -r line; do
+            expected=$(echo "$line" | awk '{print $1}')
+            path=$(echo "$line" | awk '{print $2}')
+            [ -z "$expected" ] && continue
+            actual=$(sha256sum "$path" | awk '{print $1}')
+            if [ "$expected" != "$actual" ]; then
+              echo "::error file=$path::checksum mismatch — CHECKSUMS.txt says $expected but file is $actual"
+              fail=1
+            fi
+          done < CHECKSUMS.txt
+          if [ $fail -eq 0 ]; then
+            echo "all $(wc -l < CHECKSUMS.txt) seeds match CHECKSUMS.txt"
+          else
+            exit 1
+          fi
